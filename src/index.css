@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-blue-800 text-white flex justify-center;
+  }
+}
+
+@layer components {
+  .button {
+    @apply text-xl text-gray-50 bg-green-600 hover:bg-green-500 p-1 rounded-md shadow-md border hover:scale-105 active:scale-95 transition-all ease-out;
+  }
+
+  .input {
+    @apply bg-blue-800 text-center w-[20rem] border shadow-md rounded-md focus:ring-white focus:border-white placeholder:text-center;
+  }
+}
