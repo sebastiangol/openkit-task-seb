@@ -1,5 +1,7 @@
 # openkit-task-seb
 
+This application is deployed using vercel: https://openkit-task-seb.vercel.app/
+
 Todo app using React, Redux, Firebase and TailwindCSS.
 
 ## UI Design
